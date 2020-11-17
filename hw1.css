@@ -3,6 +3,9 @@ body {
   margin: 20px;
 }
 header {
+  background-image: url("Freesbee.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 180px;
   background-color: #cccccc;
   padding: 30px;
   text-align: center;
@@ -14,6 +17,7 @@ h1 {
   margin-bottom: 40px;
 }
 header a {
+  
   padding: 20px 60px 20px 60px;
   margin: 60px;
   background-color: rgb(255, 255, 255, 0.3);
