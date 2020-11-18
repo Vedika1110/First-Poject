@@ -40,6 +40,14 @@ main {
   font-weight: bold;
   font-size: 14px;
 }
+.nav a:hover {
+  color : white;
+  background : black;
+}
+.nav a:focus {
+  color : white;
+  background : black;
+}
 div {
   font-family: sans-serif;
   background-color: rgb(0, 0, 0, 0.1);
