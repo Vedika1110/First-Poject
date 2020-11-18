@@ -191,3 +191,28 @@ form {
   padding: 20px;
   width: 600px;
 }
+@media only screen and (min-width: 400px) {
+  .nav1 a {
+    color: black;
+    background: rgb(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px 5px 10px 5px;
+    margin: 0 10px 0 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .nav1 a {
+    color: black;
+    background: rgb(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 20px 50px 20px 50px;
+    margin: 0 50px 0 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
