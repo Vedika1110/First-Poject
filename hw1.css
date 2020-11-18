@@ -1,6 +1,10 @@
+* {
+  margin : 0;
+  padding : 0;
+  
+}
 body {
   padding: 10px;
-  margin: 20px;
 }
 header {
   background-image: url("Freesbee.jpg");
@@ -73,4 +77,46 @@ td:nth-child(1n + 2) {
 }
 tr:hover {
   opacity: 0.4;
+}
+@media only screen and (min-width: 400px) {
+  header a {
+    padding: 10px 5px 10px 5px;
+    margin: 0 0 0 0;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  img {
+    width: 150px;
+    height: 130px;
+    display: block;
+    border: 5px solid black;
+    margin: 40px 5px 40px 5px;
+  }
+  .left {
+    width: 45%;
+    background-color: goldenrod;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  header a {
+    padding: 20px 60px 20px 60px;
+    margin: 60px;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  img {
+    width: 200px;
+    height: 130px;
+    display: block;
+    border: 5px solid black;
+    margin: 40px;
+  }
+  .left {
+    width: 380px;
+    background-color: goldenrod;
+  }
 }
